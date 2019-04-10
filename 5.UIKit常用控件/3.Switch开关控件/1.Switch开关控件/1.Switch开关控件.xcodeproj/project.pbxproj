@@ -1,0 +1,585 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		403A4F7B22226C12009D728F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 403A4F7A22226C12009D728F /* AppDelegate.swift */; };
+		403A4F7D22226C12009D728F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 403A4F7C22226C12009D728F /* ViewController.swift */; };
+		403A4F8022226C12009D728F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 403A4F7E22226C12009D728F /* Main.storyboard */; };
+		403A4F8222226C12009D728F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 403A4F8122226C12009D728F /* Assets.xcassets */; };
+		403A4F8522226C12009D728F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 403A4F8322226C12009D728F /* LaunchScreen.storyboard */; };
+		403A4F9022226C13009D728F /* __Switch____Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 403A4F8F22226C13009D728F /* __Switch____Tests.swift */; };
+		403A4F9B22226C13009D728F /* __Switch____UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 403A4F9A22226C13009D728F /* __Switch____UITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		403A4F8C22226C13009D728F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 403A4F6F22226C12009D728F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 403A4F7622226C12009D728F;
+			remoteInfo = "1.Switch开关控件";
+		};
+		403A4F9722226C13009D728F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 403A4F6F22226C12009D728F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 403A4F7622226C12009D728F;
+			remoteInfo = "1.Switch开关控件";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		403A4F7722226C12009D728F /* 1.Switch开关控件.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "1.Switch开关控件.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		403A4F7A22226C12009D728F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		403A4F7C22226C12009D728F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		403A4F7F22226C12009D728F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		403A4F8122226C12009D728F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		403A4F8422226C12009D728F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		403A4F8622226C12009D728F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		403A4F8B22226C13009D728F /* 1.Switch开关控件Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "1.Switch开关控件Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		403A4F8F22226C13009D728F /* __Switch____Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "__Switch____Tests.swift"; sourceTree = "<group>"; };
+		403A4F9122226C13009D728F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		403A4F9622226C13009D728F /* 1.Switch开关控件UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "1.Switch开关控件UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		403A4F9A22226C13009D728F /* __Switch____UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "__Switch____UITests.swift"; sourceTree = "<group>"; };
+		403A4F9C22226C13009D728F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		403A4F7422226C12009D728F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		403A4F8822226C13009D728F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		403A4F9322226C13009D728F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		403A4F6E22226C12009D728F = {
+			isa = PBXGroup;
+			children = (
+				403A4F7922226C12009D728F /* 1.Switch开关控件 */,
+				403A4F8E22226C13009D728F /* 1.Switch开关控件Tests */,
+				403A4F9922226C13009D728F /* 1.Switch开关控件UITests */,
+				403A4F7822226C12009D728F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		403A4F7822226C12009D728F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				403A4F7722226C12009D728F /* 1.Switch开关控件.app */,
+				403A4F8B22226C13009D728F /* 1.Switch开关控件Tests.xctest */,
+				403A4F9622226C13009D728F /* 1.Switch开关控件UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		403A4F7922226C12009D728F /* 1.Switch开关控件 */ = {
+			isa = PBXGroup;
+			children = (
+				403A4F7A22226C12009D728F /* AppDelegate.swift */,
+				403A4F7C22226C12009D728F /* ViewController.swift */,
+				403A4F7E22226C12009D728F /* Main.storyboard */,
+				403A4F8122226C12009D728F /* Assets.xcassets */,
+				403A4F8322226C12009D728F /* LaunchScreen.storyboard */,
+				403A4F8622226C12009D728F /* Info.plist */,
+			);
+			path = "1.Switch开关控件";
+			sourceTree = "<group>";
+		};
+		403A4F8E22226C13009D728F /* 1.Switch开关控件Tests */ = {
+			isa = PBXGroup;
+			children = (
+				403A4F8F22226C13009D728F /* __Switch____Tests.swift */,
+				403A4F9122226C13009D728F /* Info.plist */,
+			);
+			path = "1.Switch开关控件Tests";
+			sourceTree = "<group>";
+		};
+		403A4F9922226C13009D728F /* 1.Switch开关控件UITests */ = {
+			isa = PBXGroup;
+			children = (
+				403A4F9A22226C13009D728F /* __Switch____UITests.swift */,
+				403A4F9C22226C13009D728F /* Info.plist */,
+			);
+			path = "1.Switch开关控件UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		403A4F7622226C12009D728F /* 1.Switch开关控件 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 403A4F9F22226C13009D728F /* Build configuration list for PBXNativeTarget "1.Switch开关控件" */;
+			buildPhases = (
+				403A4F7322226C12009D728F /* Sources */,
+				403A4F7422226C12009D728F /* Frameworks */,
+				403A4F7522226C12009D728F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "1.Switch开关控件";
+			productName = "1.Switch开关控件";
+			productReference = 403A4F7722226C12009D728F /* 1.Switch开关控件.app */;
+			productType = "com.apple.product-type.application";
+		};
+		403A4F8A22226C13009D728F /* 1.Switch开关控件Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 403A4FA222226C13009D728F /* Build configuration list for PBXNativeTarget "1.Switch开关控件Tests" */;
+			buildPhases = (
+				403A4F8722226C13009D728F /* Sources */,
+				403A4F8822226C13009D728F /* Frameworks */,
+				403A4F8922226C13009D728F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				403A4F8D22226C13009D728F /* PBXTargetDependency */,
+			);
+			name = "1.Switch开关控件Tests";
+			productName = "1.Switch开关控件Tests";
+			productReference = 403A4F8B22226C13009D728F /* 1.Switch开关控件Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		403A4F9522226C13009D728F /* 1.Switch开关控件UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 403A4FA522226C13009D728F /* Build configuration list for PBXNativeTarget "1.Switch开关控件UITests" */;
+			buildPhases = (
+				403A4F9222226C13009D728F /* Sources */,
+				403A4F9322226C13009D728F /* Frameworks */,
+				403A4F9422226C13009D728F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				403A4F9822226C13009D728F /* PBXTargetDependency */,
+			);
+			name = "1.Switch开关控件UITests";
+			productName = "1.Switch开关控件UITests";
+			productReference = 403A4F9622226C13009D728F /* 1.Switch开关控件UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		403A4F6F22226C12009D728F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1000;
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = "王玲峰";
+				TargetAttributes = {
+					403A4F7622226C12009D728F = {
+						CreatedOnToolsVersion = 10.0;
+					};
+					403A4F8A22226C13009D728F = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = 403A4F7622226C12009D728F;
+					};
+					403A4F9522226C13009D728F = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = 403A4F7622226C12009D728F;
+					};
+				};
+			};
+			buildConfigurationList = 403A4F7222226C12009D728F /* Build configuration list for PBXProject "1.Switch开关控件" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 403A4F6E22226C12009D728F;
+			productRefGroup = 403A4F7822226C12009D728F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				403A4F7622226C12009D728F /* 1.Switch开关控件 */,
+				403A4F8A22226C13009D728F /* 1.Switch开关控件Tests */,
+				403A4F9522226C13009D728F /* 1.Switch开关控件UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		403A4F7522226C12009D728F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				403A4F8522226C12009D728F /* LaunchScreen.storyboard in Resources */,
+				403A4F8222226C12009D728F /* Assets.xcassets in Resources */,
+				403A4F8022226C12009D728F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		403A4F8922226C13009D728F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		403A4F9422226C13009D728F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		403A4F7322226C12009D728F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				403A4F7D22226C12009D728F /* ViewController.swift in Sources */,
+				403A4F7B22226C12009D728F /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		403A4F8722226C13009D728F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				403A4F9022226C13009D728F /* __Switch____Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		403A4F9222226C13009D728F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				403A4F9B22226C13009D728F /* __Switch____UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		403A4F8D22226C13009D728F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 403A4F7622226C12009D728F /* 1.Switch开关控件 */;
+			targetProxy = 403A4F8C22226C13009D728F /* PBXContainerItemProxy */;
+		};
+		403A4F9822226C13009D728F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 403A4F7622226C12009D728F /* 1.Switch开关控件 */;
+			targetProxy = 403A4F9722226C13009D728F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		403A4F7E22226C12009D728F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				403A4F7F22226C12009D728F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		403A4F8322226C12009D728F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				403A4F8422226C12009D728F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		403A4F9D22226C13009D728F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		403A4F9E22226C13009D728F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		403A4FA022226C13009D728F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "1.Switch开关控件/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.wlfggg.--Switch----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		403A4FA122226C13009D728F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "1.Switch开关控件/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.wlfggg.--Switch----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		403A4FA322226C13009D728F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "1.Switch开关控件Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.wlfggg.--Switch----Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/1.Switch开关控件.app/1.Switch开关控件";
+			};
+			name = Debug;
+		};
+		403A4FA422226C13009D728F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "1.Switch开关控件Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.wlfggg.--Switch----Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/1.Switch开关控件.app/1.Switch开关控件";
+			};
+			name = Release;
+		};
+		403A4FA622226C13009D728F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "1.Switch开关控件UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.wlfggg.--Switch----UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "1.Switch开关控件";
+			};
+			name = Debug;
+		};
+		403A4FA722226C13009D728F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "1.Switch开关控件UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.wlfggg.--Switch----UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "1.Switch开关控件";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		403A4F7222226C12009D728F /* Build configuration list for PBXProject "1.Switch开关控件" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				403A4F9D22226C13009D728F /* Debug */,
+				403A4F9E22226C13009D728F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		403A4F9F22226C13009D728F /* Build configuration list for PBXNativeTarget "1.Switch开关控件" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				403A4FA022226C13009D728F /* Debug */,
+				403A4FA122226C13009D728F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		403A4FA222226C13009D728F /* Build configuration list for PBXNativeTarget "1.Switch开关控件Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				403A4FA322226C13009D728F /* Debug */,
+				403A4FA422226C13009D728F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		403A4FA522226C13009D728F /* Build configuration list for PBXNativeTarget "1.Switch开关控件UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				403A4FA622226C13009D728F /* Debug */,
+				403A4FA722226C13009D728F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 403A4F6F22226C12009D728F /* Project object */;
+}
