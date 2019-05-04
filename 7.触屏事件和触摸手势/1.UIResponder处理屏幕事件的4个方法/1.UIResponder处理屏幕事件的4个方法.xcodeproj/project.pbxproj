@@ -1,0 +1,585 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		40BECF01227DA11A006E7C5F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40BECF00227DA11A006E7C5F /* AppDelegate.swift */; };
+		40BECF03227DA11A006E7C5F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40BECF02227DA11A006E7C5F /* ViewController.swift */; };
+		40BECF06227DA11A006E7C5F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 40BECF04227DA11A006E7C5F /* Main.storyboard */; };
+		40BECF08227DA11A006E7C5F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 40BECF07227DA11A006E7C5F /* Assets.xcassets */; };
+		40BECF0B227DA11A006E7C5F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 40BECF09227DA11A006E7C5F /* LaunchScreen.storyboard */; };
+		40BECF16227DA11B006E7C5F /* __UIResponder_______4___Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40BECF15227DA11B006E7C5F /* __UIResponder_______4___Tests.swift */; };
+		40BECF21227DA11B006E7C5F /* __UIResponder_______4___UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40BECF20227DA11B006E7C5F /* __UIResponder_______4___UITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		40BECF12227DA11B006E7C5F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 40BECEF5227DA11A006E7C5F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 40BECEFC227DA11A006E7C5F;
+			remoteInfo = "1.UIResponder处理屏幕事件的4个方法";
+		};
+		40BECF1D227DA11B006E7C5F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 40BECEF5227DA11A006E7C5F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 40BECEFC227DA11A006E7C5F;
+			remoteInfo = "1.UIResponder处理屏幕事件的4个方法";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		40BECEFD227DA11A006E7C5F /* 1.UIResponder处理屏幕事件的4个方法.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "1.UIResponder处理屏幕事件的4个方法.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		40BECF00227DA11A006E7C5F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		40BECF02227DA11A006E7C5F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		40BECF05227DA11A006E7C5F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		40BECF07227DA11A006E7C5F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		40BECF0A227DA11A006E7C5F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		40BECF0C227DA11A006E7C5F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		40BECF11227DA11B006E7C5F /* 1.UIResponder处理屏幕事件的4个方法Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "1.UIResponder处理屏幕事件的4个方法Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		40BECF15227DA11B006E7C5F /* __UIResponder_______4___Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "__UIResponder_______4___Tests.swift"; sourceTree = "<group>"; };
+		40BECF17227DA11B006E7C5F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		40BECF1C227DA11B006E7C5F /* 1.UIResponder处理屏幕事件的4个方法UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "1.UIResponder处理屏幕事件的4个方法UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		40BECF20227DA11B006E7C5F /* __UIResponder_______4___UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "__UIResponder_______4___UITests.swift"; sourceTree = "<group>"; };
+		40BECF22227DA11B006E7C5F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		40BECEFA227DA11A006E7C5F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		40BECF0E227DA11B006E7C5F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		40BECF19227DA11B006E7C5F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		40BECEF4227DA11A006E7C5F = {
+			isa = PBXGroup;
+			children = (
+				40BECEFF227DA11A006E7C5F /* 1.UIResponder处理屏幕事件的4个方法 */,
+				40BECF14227DA11B006E7C5F /* 1.UIResponder处理屏幕事件的4个方法Tests */,
+				40BECF1F227DA11B006E7C5F /* 1.UIResponder处理屏幕事件的4个方法UITests */,
+				40BECEFE227DA11A006E7C5F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		40BECEFE227DA11A006E7C5F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				40BECEFD227DA11A006E7C5F /* 1.UIResponder处理屏幕事件的4个方法.app */,
+				40BECF11227DA11B006E7C5F /* 1.UIResponder处理屏幕事件的4个方法Tests.xctest */,
+				40BECF1C227DA11B006E7C5F /* 1.UIResponder处理屏幕事件的4个方法UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		40BECEFF227DA11A006E7C5F /* 1.UIResponder处理屏幕事件的4个方法 */ = {
+			isa = PBXGroup;
+			children = (
+				40BECF00227DA11A006E7C5F /* AppDelegate.swift */,
+				40BECF02227DA11A006E7C5F /* ViewController.swift */,
+				40BECF04227DA11A006E7C5F /* Main.storyboard */,
+				40BECF07227DA11A006E7C5F /* Assets.xcassets */,
+				40BECF09227DA11A006E7C5F /* LaunchScreen.storyboard */,
+				40BECF0C227DA11A006E7C5F /* Info.plist */,
+			);
+			path = "1.UIResponder处理屏幕事件的4个方法";
+			sourceTree = "<group>";
+		};
+		40BECF14227DA11B006E7C5F /* 1.UIResponder处理屏幕事件的4个方法Tests */ = {
+			isa = PBXGroup;
+			children = (
+				40BECF15227DA11B006E7C5F /* __UIResponder_______4___Tests.swift */,
+				40BECF17227DA11B006E7C5F /* Info.plist */,
+			);
+			path = "1.UIResponder处理屏幕事件的4个方法Tests";
+			sourceTree = "<group>";
+		};
+		40BECF1F227DA11B006E7C5F /* 1.UIResponder处理屏幕事件的4个方法UITests */ = {
+			isa = PBXGroup;
+			children = (
+				40BECF20227DA11B006E7C5F /* __UIResponder_______4___UITests.swift */,
+				40BECF22227DA11B006E7C5F /* Info.plist */,
+			);
+			path = "1.UIResponder处理屏幕事件的4个方法UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		40BECEFC227DA11A006E7C5F /* 1.UIResponder处理屏幕事件的4个方法 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 40BECF25227DA11B006E7C5F /* Build configuration list for PBXNativeTarget "1.UIResponder处理屏幕事件的4个方法" */;
+			buildPhases = (
+				40BECEF9227DA11A006E7C5F /* Sources */,
+				40BECEFA227DA11A006E7C5F /* Frameworks */,
+				40BECEFB227DA11A006E7C5F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "1.UIResponder处理屏幕事件的4个方法";
+			productName = "1.UIResponder处理屏幕事件的4个方法";
+			productReference = 40BECEFD227DA11A006E7C5F /* 1.UIResponder处理屏幕事件的4个方法.app */;
+			productType = "com.apple.product-type.application";
+		};
+		40BECF10227DA11B006E7C5F /* 1.UIResponder处理屏幕事件的4个方法Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 40BECF28227DA11B006E7C5F /* Build configuration list for PBXNativeTarget "1.UIResponder处理屏幕事件的4个方法Tests" */;
+			buildPhases = (
+				40BECF0D227DA11B006E7C5F /* Sources */,
+				40BECF0E227DA11B006E7C5F /* Frameworks */,
+				40BECF0F227DA11B006E7C5F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				40BECF13227DA11B006E7C5F /* PBXTargetDependency */,
+			);
+			name = "1.UIResponder处理屏幕事件的4个方法Tests";
+			productName = "1.UIResponder处理屏幕事件的4个方法Tests";
+			productReference = 40BECF11227DA11B006E7C5F /* 1.UIResponder处理屏幕事件的4个方法Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		40BECF1B227DA11B006E7C5F /* 1.UIResponder处理屏幕事件的4个方法UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 40BECF2B227DA11B006E7C5F /* Build configuration list for PBXNativeTarget "1.UIResponder处理屏幕事件的4个方法UITests" */;
+			buildPhases = (
+				40BECF18227DA11B006E7C5F /* Sources */,
+				40BECF19227DA11B006E7C5F /* Frameworks */,
+				40BECF1A227DA11B006E7C5F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				40BECF1E227DA11B006E7C5F /* PBXTargetDependency */,
+			);
+			name = "1.UIResponder处理屏幕事件的4个方法UITests";
+			productName = "1.UIResponder处理屏幕事件的4个方法UITests";
+			productReference = 40BECF1C227DA11B006E7C5F /* 1.UIResponder处理屏幕事件的4个方法UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		40BECEF5227DA11A006E7C5F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = "王玲峰";
+				TargetAttributes = {
+					40BECEFC227DA11A006E7C5F = {
+						CreatedOnToolsVersion = 10.2;
+					};
+					40BECF10227DA11B006E7C5F = {
+						CreatedOnToolsVersion = 10.2;
+						TestTargetID = 40BECEFC227DA11A006E7C5F;
+					};
+					40BECF1B227DA11B006E7C5F = {
+						CreatedOnToolsVersion = 10.2;
+						TestTargetID = 40BECEFC227DA11A006E7C5F;
+					};
+				};
+			};
+			buildConfigurationList = 40BECEF8227DA11A006E7C5F /* Build configuration list for PBXProject "1.UIResponder处理屏幕事件的4个方法" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 40BECEF4227DA11A006E7C5F;
+			productRefGroup = 40BECEFE227DA11A006E7C5F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				40BECEFC227DA11A006E7C5F /* 1.UIResponder处理屏幕事件的4个方法 */,
+				40BECF10227DA11B006E7C5F /* 1.UIResponder处理屏幕事件的4个方法Tests */,
+				40BECF1B227DA11B006E7C5F /* 1.UIResponder处理屏幕事件的4个方法UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		40BECEFB227DA11A006E7C5F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				40BECF0B227DA11A006E7C5F /* LaunchScreen.storyboard in Resources */,
+				40BECF08227DA11A006E7C5F /* Assets.xcassets in Resources */,
+				40BECF06227DA11A006E7C5F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		40BECF0F227DA11B006E7C5F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		40BECF1A227DA11B006E7C5F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		40BECEF9227DA11A006E7C5F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				40BECF03227DA11A006E7C5F /* ViewController.swift in Sources */,
+				40BECF01227DA11A006E7C5F /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		40BECF0D227DA11B006E7C5F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				40BECF16227DA11B006E7C5F /* __UIResponder_______4___Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		40BECF18227DA11B006E7C5F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				40BECF21227DA11B006E7C5F /* __UIResponder_______4___UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		40BECF13227DA11B006E7C5F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 40BECEFC227DA11A006E7C5F /* 1.UIResponder处理屏幕事件的4个方法 */;
+			targetProxy = 40BECF12227DA11B006E7C5F /* PBXContainerItemProxy */;
+		};
+		40BECF1E227DA11B006E7C5F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 40BECEFC227DA11A006E7C5F /* 1.UIResponder处理屏幕事件的4个方法 */;
+			targetProxy = 40BECF1D227DA11B006E7C5F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		40BECF04227DA11A006E7C5F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				40BECF05227DA11A006E7C5F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		40BECF09227DA11A006E7C5F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				40BECF0A227DA11A006E7C5F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		40BECF23227DA11B006E7C5F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		40BECF24227DA11B006E7C5F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		40BECF26227DA11B006E7C5F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "1.UIResponder处理屏幕事件的4个方法/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.wlfggg.--UIResponder-------4---";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		40BECF27227DA11B006E7C5F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "1.UIResponder处理屏幕事件的4个方法/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.wlfggg.--UIResponder-------4---";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		40BECF29227DA11B006E7C5F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "1.UIResponder处理屏幕事件的4个方法Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.wlfggg.--UIResponder-------4---Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/1.UIResponder处理屏幕事件的4个方法.app/1.UIResponder处理屏幕事件的4个方法";
+			};
+			name = Debug;
+		};
+		40BECF2A227DA11B006E7C5F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "1.UIResponder处理屏幕事件的4个方法Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.wlfggg.--UIResponder-------4---Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/1.UIResponder处理屏幕事件的4个方法.app/1.UIResponder处理屏幕事件的4个方法";
+			};
+			name = Release;
+		};
+		40BECF2C227DA11B006E7C5F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "1.UIResponder处理屏幕事件的4个方法UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.wlfggg.--UIResponder-------4---UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "1.UIResponder处理屏幕事件的4个方法";
+			};
+			name = Debug;
+		};
+		40BECF2D227DA11B006E7C5F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "1.UIResponder处理屏幕事件的4个方法UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.wlfggg.--UIResponder-------4---UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "1.UIResponder处理屏幕事件的4个方法";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		40BECEF8227DA11A006E7C5F /* Build configuration list for PBXProject "1.UIResponder处理屏幕事件的4个方法" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				40BECF23227DA11B006E7C5F /* Debug */,
+				40BECF24227DA11B006E7C5F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		40BECF25227DA11B006E7C5F /* Build configuration list for PBXNativeTarget "1.UIResponder处理屏幕事件的4个方法" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				40BECF26227DA11B006E7C5F /* Debug */,
+				40BECF27227DA11B006E7C5F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		40BECF28227DA11B006E7C5F /* Build configuration list for PBXNativeTarget "1.UIResponder处理屏幕事件的4个方法Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				40BECF29227DA11B006E7C5F /* Debug */,
+				40BECF2A227DA11B006E7C5F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		40BECF2B227DA11B006E7C5F /* Build configuration list for PBXNativeTarget "1.UIResponder处理屏幕事件的4个方法UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				40BECF2C227DA11B006E7C5F /* Debug */,
+				40BECF2D227DA11B006E7C5F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 40BECEF5227DA11A006E7C5F /* Project object */;
+}
