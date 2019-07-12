@@ -16,6 +16,7 @@ for i in 0...10 {
 }
 //如果不关心循环本身的索引，可以直接用下划线如下
 for _ in 0...10 {
+    print("hello world")
 }
 //在遍历数组的时候，Swift还提供了一种特别方便的方式（利用元祖）
 var someInts:[Int] = [10, 20, 30]
@@ -23,15 +24,33 @@ var someInts:[Int] = [10, 20, 30]
 for (index,value) in someInts.enumerated() {
     //index是下标，value是值
     //这样使得遍历数组能写的更加简洁优雅
-    print(index,value)
+    print("haha\(index),value\(value)")
+}
+//倒叙遍历循环
+var array:[Int] = [10, 20, 30]
+for i in array.reversed().enumerated() {
+    print(i)
+    //  (0, "welcome")
+    //  (1, "hello")
 }
 for index in someInts {
     print( "index 的值为 \(index)")
 }
 
+//while的判断句必须有正确的真假，没有非0即真
+//while后面的()可以省略
+var a = 0
+while a < 10 {
+    a+=1
+}
 
+//while 循环
+//do while 循环
+//使用repeat关键字来代替了do
 var index = 15
 repeat{
     print( "index 的值为 \(index)")
     index = index + 1
 }while index < 20
+
+
