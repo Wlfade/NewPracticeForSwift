@@ -8,13 +8,10 @@ let dict2 = ["name":"haha","age":"19"]
 let dict21 : [String : String] = ["name":"haha","age":"19"]
 let dict22 = ["name":"haha","age":"19"] as [String : String]
 
-
 let dict3 = ["name":"lala","age":18] as [String : Any]
 let dict31 = ["name":"lala","age":18] as [String: AnyObject]
 let dict32 : [String : Any] = ["name":"lala","age":18]
 let dict33 : Dictionary<String,Any> = ["name":"lala","age":18]
-
-
 
 //2> 定义可变字典 使用var修饰
 //AnyObject:一般指定了类型 NSObject : 一般用于创建对象
